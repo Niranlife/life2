@@ -19,7 +19,7 @@ $(document).ready(function() {
 		if (moves === 32) {
 			$ratingStars.eq(2).removeClass('fa-star').addClass('fa-star-o');
 			rating = 2;
-		} else if (moves >= 33 && moves <= 38) {
+		} else if (moves >= 35 && moves <= 38) {
 			$ratingStars.eq(1).removeClass('fa-star').addClass('fa-star-o');
 			rating = 1;
 		} else if (moves >= 39) {
